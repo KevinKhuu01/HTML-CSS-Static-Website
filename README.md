@@ -5,7 +5,7 @@ This webpage was created with only HTML and CSS to demonstrate web design fundam
 <br>
 🚀 Live Demo - https://kevinkhuustaticwebsite.netlify.app//
 
-<br>
+<br><br>
 🛠️ Stack
 
 HTML - Core structure and content.
