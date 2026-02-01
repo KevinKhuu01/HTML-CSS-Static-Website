@@ -1,4 +1,4 @@
-Front end Website - COMP213: Web design Final Project
+<h2>Front end Website - COMP213: Web design Final Project</h2>
 
 This webpage was created with only HTML and CSS to demonstrate web design fundamentals.
 
