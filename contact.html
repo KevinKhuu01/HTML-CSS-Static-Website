@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>CCSPP: Contact Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html" class="titleFont">
+                <img src="images/centenniallogo.png"  alt="Centennial college crest logo" class ="logo" width="152" height="154">
+                <h1 class="titleFont">Centennial College Student Protection Program </h1>
+                <h2 class="titleFont">Most Wanted List</h2> 
+            </a>
+        </header>
+
+        <nav>
+            <ol>
+                <li> <a href="index.html" class="navLink">Home</a></li>
+                <li><a href="listing.html" class="navLink">Listings</a></li>
+                <li><a href="contact.html" class="navLink">Contact</a></li>
+                <li><a href="sitemap.html" class="navLink">Sitemap</a></li>
+            </ol>
+        </nav>
+
+        <main class="mainContact">
+            <form>
+                <h2>Anonymous Crime Report Submission</h2>
+                <fieldset>
+                    <legend> Your Information (Voluntary) </legend>
+                    <label for="fname">First Name: </label>
+                    <input type="text" name="fname" id="fname" class="block">
+                    <label for="lname" class="addLineHeight">Last Name: </label>
+                    <input type="text" name="lname" id="lname" class="block">    
+                    <label for="email" class="addLineHeight">Student Email: </label>
+                    <input type="email" name="email" id="email" class="block">    
+                    <label for="number" class="addLineHeight">Contact Number: </label>
+                    <input type="tel" name="number" id="number" class="block">    
+                </fieldset>
+
+                <fieldset>
+                    <legend> Reported Crime </legend>
+                    <label for="crimeDate">Date of witnessed crime</label>
+                    <input type="date" name="crimeDate" id="crimeDate" class="block">
+                    <label for="crimeTime" class="addLineHeight">Approximate time of witnessed crime</label>
+                    <input type="time" name="crimeTime" id="crimeTime" class="block">
+                    <label for="build">Suspect Build</label>
+                    <select name="build" id="build" class="block">
+                        <option> </option>
+                        <option>Athletic</option>
+                        <option>Slim</option>
+                        <option>Big</option>
+                        <option>BIG BIG</option>
+                    </select>
+                    <p>Was the suspect armed?
+                        <section class="block">
+                        <input type="radio" name="armed" id="yes" value="yes">
+                        <label for ="yes">Yes</label>
+                        <input type="radio" name="armed" id="no" value="no">
+                        <label for ="no">No</label>
+                        <input type="radio" name="armed" id="unknown" value="unknown">
+                        <label for ="unknown">Don't know</label>
+                        </section>
+                    </p>
+                    <label for="suspect" class="addLineHeight block">Suspect Description</label>
+                    <textarea id="suspect" name="suspect" rows="8" cols="200" class="block"></textarea>
+                    <label for="crime" class="addLineHeight">Crime Information</label>
+                    <textarea id="crime" name="crime" rows="8" cols="200" class="block"></textarea>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Submission</legend>
+                    <input type="submit" id="submit" value="Submit Report">
+                    <input type="reset" id="reset" value="Reset Form">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact Center Information</legend>
+                    <ul class="removeBullet">
+                        <li>Campus Security Phone Number: <a href="tel:4164394357" class="linkColor">416-439-4357</a></li>
+                        <li>Campus Security Email: <a href="mailto:security@centennialcollege.ca" class="linkColor">security@centennialcollege.ca</a> </li>
+                        <li>Centennial College Website: <a href="https://www.centennialcollege.ca/" class="linkColor">www.centennialcollege.ca/</a></li>
+                    </ul>
+                </fieldset>
+            </form>
+        </main>
+        <aside>
+            <img src="images/campusphoto.jpg" alt="centennial college morningside campus" width="673" height="438">
+            <h2>Centennial College Student Protection Program</h2>
+            <p>Founded in 2001, the Student Protection Program was created in an effort to make Centennial College campus' a safe and supportive campus environment. By addressing potential risks, promoting awareness, and encouraging responsible behavior, the CCSTPP prevents accidents, reduces crimes, and ensures that students can focus on their studies without safety concerns. The CCSTPP plays a key role in protecting both individuals and the broader campus community.</p>
+
+            <h2>Anonymous Crime Reporting</h2>
+            <p>Stay safe with The Student Protection Program Anonymous Crime Reporting system. Students, faculty, and staff can quickly and discreetly report suspicious activity anonymously, only providing their information if they would like to be contacted in regards to the case. This system ensures everyone can contribute to campus safety while feeling secure. Help keep the community protected—if you see something, say something, anonymously!</p>
+            <h2>Need to file a report?</h2>
+            <span>
+                <a href="contact.html">See our contact page for more information</a>
+            </span>
+        </aside>
+        <footer>
+            &copy; Centennial College 2024 - Kevin Khuu
+        </footer>
+    </body>
+</html>
